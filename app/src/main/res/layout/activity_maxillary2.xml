@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/abc32teethmaxillary"
+tools:context="com.example.abc.a32pearls.Maxillary2"
+tools:layout_editor_absoluteY="81dp">
+
+
+    <Button
+        android:id="@+id/mandibular"
+        android:layout_width="122dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="283dp"
+
+        android:background="@drawable/gradient"
+        android:text="@string/mandibular"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RelativeLayout
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123">
+
+        <Button
+            android:id="@+id/t1"
+            android:layout_width="30dp"
+            android:layout_height="43dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mycirclebutton"
+            android:onClick="onClick"
+            android:src="@drawable/ic_action_tick"
+            android:text="Teeth1"
+            android:textColor="#00000000"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="82dp" />
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="52dp"
+    android:layout_height="48dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.243"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.14">
+
+    <Button
+        android:id="@+id/t2"
+        android:layout_width="30dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mycirclebutton"
+        android:onClick="onClick"
+        android:src="@drawable/ic_action_tick"
+        android:text="Teeth2"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="82dp" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="52dp"
+    android:layout_height="48dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.4"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.177">
+
+    <Button
+        android:id="@+id/t3"
+        android:layout_width="30dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mycirclebutton"
+        android:onClick="onClick"
+        android:src="@drawable/ic_action_tick"
+        android:text="teeth3"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="82dp" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="52dp"
+    android:layout_height="48dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.569"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.209">
+
+    <Button
+        android:id="@+id/t4"
+        android:layout_width="30dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mycirclebutton"
+        android:onClick="onClick"
+        android:src="@drawable/ic_action_tick"
+        android:text="Teeth4"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="82dp" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="52dp"
+    android:layout_height="48dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.701"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.265">
+
+    <Button
+        android:id="@+id/t5"
+        android:layout_width="30dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mycirclebutton"
+        android:onClick="onClick"
+        android:src="@drawable/ic_action_tick"
+        android:text="Teeth5"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="82dp" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="52dp"
+    android:layout_height="48dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.765"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.313">
+
+    <Button
+        android:id="@+id/t6"
+        android:layout_width="30dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mycirclebutton"
+        android:onClick="onClick"
+        android:src="@drawable/ic_action_tick"
+        android:text="Teeth6"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="82dp" />
+</RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="52dp"
+    android:layout_height="48dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.819"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.369">
+
+        <Button
+            android:id="@+id/t7"
+            android:layout_width="30dp"
+            android:layout_height="43dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mycirclebutton"
+            android:onClick="onClick"
+            android:src="@drawable/ic_action_tick"
+            android:text="Teeth7"
+            android:textColor="#00000000"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="82dp" />
+</RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="52dp"
+    android:layout_height="48dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.882"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.447">
+
+        <Button
+            android:id="@+id/t8"
+            android:layout_width="30dp"
+            android:layout_height="43dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mycirclebutton"
+            android:onClick="onClick"
+            android:src="@drawable/ic_action_tick"
+            android:text="Teeth8"
+            android:textColor="#00000000"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="82dp" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535">
+
+        <Button
+            android:id="@+id/t9"
+            android:layout_width="30dp"
+            android:layout_height="43dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mycirclebutton"
+            android:onClick="onClick"
+            android:src="@drawable/ic_action_tick"
+            android:text="Teeth9"
+            android:textColor="#00000000"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="82dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="52dp"
+    android:layout_height="48dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.858"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.624">
+
+        <Button
+            android:id="@+id/t10"
+            android:layout_width="30dp"
+            android:layout_height="43dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mycirclebutton"
+            android:onClick="onClick"
+            android:src="@drawable/ic_action_tick"
+            android:text="Teeth10"
+            android:textColor="#00000000"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="82dp" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="52dp"
+    android:layout_height="48dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.798"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.682">
+
+    <Button
+        android:id="@+id/t11"
+        android:layout_width="30dp"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mycirclebutton"
+        android:onClick="onClick"
+        android:src="@drawable/ic_action_tick"
+        android:text="Teeth11"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="82dp" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="52dp"
+    android:layout_height="48dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.701"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.727">
+
+    <Button
+        android:id="@+id/t12"
+        android:layout_width="30dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/mycirclebutton"
+        android:onClick="onClick"
+        android:src="@drawable/ic_action_tick"
+        android:text="Teeth12"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="82dp" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="52dp"
+    android:layout_height="48dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.569"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.786">
+
+    <Button
+        android:id="@+id/t13"
+        android:layout_width="30dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/mycirclebutton"
+        android:onClick="onClick"
+        android:src="@drawable/ic_action_tick"
+        android:text="Teeth13"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="82dp" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/rl"
+    android:layout_width="52dp"
+    android:layout_height="48dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.412"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.816">
+
+    <Button
+        android:id="@+id/t14"
+        android:layout_width="30dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/mycirclebutton"
+        android:onClick="onClick"
+        android:src="@drawable/ic_action_tick"
+        android:text="Teeth14"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="82dp" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="28dp"
+    android:layout_height="29dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.247"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.854">
+
+    <Button
+        android:id="@+id/t15"
+        android:layout_width="30dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/mycirclebutton"
+        android:onClick="onClick"
+        android:src="@drawable/ic_action_tick"
+        android:text="Teeth15"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="249dp" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="36dp"
+    android:layout_height="41dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.071"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.876">
+
+    <Button
+        android:id="@+id/t16"
+        android:layout_width="30dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/mycirclebutton"
+        android:onClick="onClick"
+        android:src="@drawable/ic_action_tick"
+        android:text="Teeth16"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="400dp" />
+</RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

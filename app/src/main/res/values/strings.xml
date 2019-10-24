@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">32Pearls</string>
+    <string name="mandibular">mandibular</string>
+    <string name="maxillary">maxillary</string>
+    <string name="btnnew">New</string>
+    <string name="btnexisting">Existing</string>
+    <string name="button2">ADD</string>
+    <string name="editText">Name</string>
+    <string name="editText2">Age</string>
+    <string name="editText3">M/F</string>
+    <string name="app_name1">listview</string>
+    <string name="sharing_text">Your sharing text goes here…</string>
+    <string name="share_title">Share Screenshot</string>
+    <string name="screenshot_take_failed">Failed to take screenshot!!</string>
+    <string name="wait">Please wait…</string>
+    <string name="full_page_screenshot">Full Page Screenshot</string>
+    <string name="hidden_text">Hidden Text</string>
+    <string name="custom_page_screenshot">Custom Page Screenshot</string>
+    <string-array name="Treatment">
+        <item name="root">Root Canal Front </item>
+        <item name="filling">Root Canal Behind</item>
+        <item name="e1">Temporary Filing(Small)</item>
+        <item name="e2">Temporary Filing(Medium)</item>
+        <item name="e3">Temporary Filing(Large)</item>
+        <item name="e4">Silver(Small)</item>
+        <item name="e5">Silver(Medium)</item>
+        <item name="e6">Silver(Large)</item>
+        <item name="e7">Tooth Colored(Small)</item>
+        <item name="e8">Tooth Colored(Medium)</item>
+        <item name="e9">Tooth Colored(Large)</item>
+        <item name="e1">Normal Extraction</item>
+        <item name="e2">Surgical Extraction</item>
+        <item name="e3">Wisdom Tooth Extraction</item>
+        <item name="e4">Steel Crown</item>
+        <item name="e5">Semi Ceramic Crown</item>
+        <item name="e6">Full Crown</item>
+        <item name="e7">X-ray</item>
+        <item name="e8">Indian Denture</item>
+        <item name="e9">Japanese Denture</item>
+        <item nmae="e10">American Denture</item>
+    </string-array>
+    <string name="title_activity_tabbed">Tabbed</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tab_fragments">TabFragments</string>
+</resources>
+
